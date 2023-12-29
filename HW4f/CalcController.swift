@@ -8,6 +8,7 @@
 import UIKit
 
 class CalcController: UIViewController {
+    let git = "Streing for commit"
 
     @IBOutlet weak var calculator: UIStackView!
     
