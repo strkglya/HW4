@@ -20,7 +20,7 @@ class CalcController: UIViewController {
         
         let calcConstraints = [
             calculator.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0),
-            calculator.heightAnchor.constraint(equalToConstant: 600),
+            calculator.topAnchor.constraint(equalTo: view.topAnchor, constant: 200),
             calculator.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
             calculator.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 0)
         ]
